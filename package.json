@@ -1,6 +1,6 @@
 {
-  "name": "dynamoose",
-  "version": "1.7.2",
+  "name": "dynamoose-serverless",
+  "version": "0.0.0",
   "description": "Dynamoose is a modeling tool for Amazon's DynamoDB (inspired by Mongoose)",
   "typings": "./dynamoose.d.ts",
   "homepage": "https://dynamoosejs.com",
@@ -63,6 +63,7 @@
     "@semantic-release/github": "5.2.10",
     "@semantic-release/npm": "5.1.4",
     "@semantic-release/release-notes-generator": "7.1.4",
+    "aws-sdk": "^2.488.0",
     "commitizen": "3.0.7",
     "coveralls": "3.0.2",
     "cz-conventional-changelog": "2.1.0",
@@ -82,7 +83,6 @@
   },
   "dependencies": {
     "@types/node": "11.11.0",
-    "aws-sdk": "2.395.0",
     "debug": "4.1.1",
     "deep-equal": "1.0.1",
     "hooks": "0.3.2",
