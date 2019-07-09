@@ -1,6 +1,6 @@
 {
   "name": "dynamoose-serverless",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Dynamoose is a modeling tool for Amazon's DynamoDB (inspired by Mongoose)",
   "typings": "./dynamoose.d.ts",
   "homepage": "https://dynamoosejs.com",
@@ -82,7 +82,6 @@
     "typescript": "3.3.3333"
   },
   "dependencies": {
-    "@types/node": "11.11.0",
     "debug": "4.1.1",
     "deep-equal": "1.0.1",
     "hooks": "0.3.2",
