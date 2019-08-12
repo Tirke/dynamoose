@@ -16,3 +16,6 @@ Gemfile.lock
 .nyc_output
 coverage
 coverage.html
+
+
+dist
