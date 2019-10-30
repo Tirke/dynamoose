@@ -1,7 +1,7 @@
 // Custom made dynamoose declaration file.
 import * as _AWS from 'aws-sdk';
 
-declare module "dynamoose" {
+declare module "dynamoose-serverless" {
   export var AWS: typeof _AWS;
 
   export function local(url?: string): void;
