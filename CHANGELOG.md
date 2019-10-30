@@ -1,5 +1,26 @@
 # Dynamoose Changelog
 
+## [1.11.1](https://github.com/dynamoosejs/dynamoose/compare/v1.11.0...v1.11.1) (2019-09-05)
+
+
+### Bug Fixes
+
+* fixing model.transaction.conditioncheck ([cc04bee](https://github.com/dynamoosejs/dynamoose/commit/cc04bee)), closes [#539](https://github.com/dynamoosejs/dynamoose/issues/539)
+
+# [1.11.0](https://github.com/dynamoosejs/dynamoose/compare/v1.10.0...v1.11.0) (2019-08-25)
+
+
+### Bug Fixes
+
+* **plugin:** solve problem with rejecting during batchput:called ([be01f8c](https://github.com/dynamoosejs/dynamoose/commit/be01f8c))
+* **plugin:** solve problem with rejecting during update:called ([959ba8c](https://github.com/dynamoosejs/dynamoose/commit/959ba8c))
+
+
+### Features
+
+* **plugin:** add batchPut events ([501c689](https://github.com/dynamoosejs/dynamoose/commit/501c689))
+* **plugin:** add update events ([78e8538](https://github.com/dynamoosejs/dynamoose/commit/78e8538))
+
 # [1.10.0](https://github.com/dynamoosejs/dynamoose/compare/v1.9.0...v1.10.0) (2019-06-28)
 
 
